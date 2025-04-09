@@ -1,0 +1,31 @@
+{
+  "active_service": "google",
+  "active_config": "default",
+  "use_streaming_translation": false,
+  "use_mixed_translation": false,
+  "mixed_translation_configs": [],
+  "services": {
+    "google": {
+      "configs": {
+        "default": {
+          "source_language": "auto",
+          "target_language": "zh-CN",
+          "timeout": 5,
+          "max_concurrent_requests": 9
+        }
+      }
+    },
+    "deeplx": {
+      "configs": {
+        "default": {
+          "api_url": "http://127.0.0.1:1188/translate",
+          "source_language": "auto",
+          "target_language": "ZH",
+          "timeout": 5,
+          "max_concurrent_requests": 3
+        }
+      }
+    }
+  },
+  "time": 1712653371256
+}
